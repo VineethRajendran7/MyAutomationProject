@@ -4,7 +4,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-public class TC_002LogoutFunction {
+import base.BaseClass;
+
+public class TC_002LogoutFunction extends BaseClass{
 	@Test
 	public void loginFunction() {
 		ChromeDriver driver=new ChromeDriver();
