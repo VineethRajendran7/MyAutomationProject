@@ -7,6 +7,7 @@ public class TC_001LoginFunction {
 	@Test
 	public void loginFunction() {
 		ChromeDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
         System.out.println("Login successful");
 	}
 
